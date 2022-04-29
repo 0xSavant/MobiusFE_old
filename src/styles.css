@@ -69,6 +69,9 @@ main{
     position: relative;
     text-align: center;
 }
+.backGroundImage{
+   margin-left: -10px;
+}
 .container--title{
     
     display: flex;
@@ -133,4 +136,114 @@ main{
     font-family: 'IBM-Plex-Sans';
     letter-spacing: 0.16px;
 
+}
+.boxLinks{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 200px;
+
+}
+.infoIcon{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-right: 45px;
+    border-color: black;
+    border-style: outset;
+    border-left: none;
+    border-top: none;   
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+}
+.infoIcon--Image{
+    width: 70px;
+    height: 70px;
+    
+}
+.paperIcon{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-right: 45px;
+    border-color: black;
+    border-style: outset;
+    border-left: none;
+    border-top: none;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+}
+.paoerIcon--Image{
+    width: 70px;
+    height: 70px;
+}
+.textIcon{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-color: black;
+    border-style: outset;
+    border-left: none;
+    border-top: none;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+}
+.textIcon--Image{
+    width: 70px;
+    height: 70px;
+
+}
+
+
+
+.bodyLinks{
+    
+    display: flex;
+    justify-content: center;
+    width: 1290px;
+    height: 575px;
+    background: rgba(133, 133, 133, 0.15);
+    border-radius: 40px;
+}
+.linkContainers{
+  display: flex;
+  justify-content: center;
+
+}
+
+.pig{
+    display: flex;
+    flex-direction: column;
+}
+.pig > img{
+    width:200px;
+    height:200px;
+}
+
+.moneySigns{
+    display: flex;
+    flex-direction: column;
+}
+.moneySigns >img{
+    width:200px;
+    height:200px;
+}
+.flowerPot{
+    display:flex;
+    flex-direction: column;
+}
+.flowerPot > img{
+    width:200px;
+    height:200px;
 }
