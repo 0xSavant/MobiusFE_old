@@ -1,0 +1,136 @@
+.MobiusLogo{
+    width: 100px;
+}    
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 51px;
+
+    
+    
+}
+
+.header{
+    display: inline-block;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    font-style: normal;
+    margin-inline: 52px;
+    color: #858585;
+    font-family: 'IBM-Plex-Sans',sans-serif;
+    
+    
+}
+.header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(115deg, #FF00DC, #ffffff, #FF00DC, #ffffff, #FF00DC);
+    background-size: 50% 100%;
+    border-radius: inherit;
+}
+.header:hover::before{
+    animation: animate_border .75s linear infinite;
+}
+.header span{
+    display: block;
+    background-color: white;
+    padding: 13px 20px;
+    border-radius: 3px;
+    position: relative;
+    z-index: 2;
+}
+@keyframes animate_border {
+    to{
+        transform: translateX(-50%);
+    }
+}
+
+nav > img{
+    margin-inline:30px; /* puts margin on left and right side of image*/
+    
+}
+
+main{
+    margin-top: 138px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container{
+    position: relative;
+    text-align: center;
+}
+.container--title{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center; /*Aligns text to center of screen */
+
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.container--title--big{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 83px;
+    color: #000000;
+}
+
+
+.container--subtitle{
+    font-family: 'IBM-Plex-Sans';
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+.button{
+    display:flex;
+    justify-content: center; 
+   
+  }
+  
+.buttonleft{
+    background: #FF00DC; /* color of button*/
+    color: white; /* color of text */
+    width: 115px;
+    height: 34px;
+    border: 1px solid #D1D5DB;
+    border-radius: 30px;
+    font-size: 14px;
+    font-family: 'IBM-Plex-Sans';
+    letter-spacing: 0.16px;
+    margin-right: 50px;
+    
+  }
+.buttonright{
+    background: #FF00DC;
+    color:white;
+    width: 115px;
+    height: 34px;
+    border: 1px solid #D1D5DB;
+    border-radius: 30px;
+    font-size: 14px;
+    font-family: 'IBM-Plex-Sans';
+    letter-spacing: 0.16px;
+
+}
