@@ -141,6 +141,7 @@ main{
     display:flex;
     justify-content: center;
     margin-bottom: 200px;
+    margin-top: 150px;
 
 }
 .infoIcon{
@@ -219,29 +220,112 @@ main{
 .linkContainers{
   display: flex;
   justify-content: center;
-
+  
 }
 
 .pig{
     display: flex;
     flex-direction: column;
+    margin-right: 45px;
 }
 .pig > img{
     width:200px;
     height:200px;
 }
+.pig > button{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: #FF00DC;
+    color:white;
+    width: 130px;
+    height: 42px;
+
+    border: 1px solid #D1D5DB;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'IBM-Plex-Sans';
+    letter-spacing: 0.16px;
+}
+.pig > p{
+    width: 284px;
+    height: 116px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
 
 .moneySigns{
     display: flex;
     flex-direction: column;
+    margin-right: 45px;
 }
 .moneySigns >img{
+    display: flex;
+    
     width:200px;
     height:200px;
+}
+.moneySigns > button{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: #FF00DC;
+    color:white;
+    width: 130px;
+    height: 42px;
+
+    border: 1px solid #D1D5DB;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'IBM-Plex-Sans';
+    letter-spacing: 0.16px;
+}
+.moneySigns > p{
+    width: 284px;
+    height: 116px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #000000;
 }
 .flowerPot{
     display:flex;
     flex-direction: column;
+}
+.flowerPot > button{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: #FF00DC;
+    color:white;
+    width: 130px;
+    height: 42px;
+
+    border: 1px solid #D1D5DB;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'IBM-Plex-Sans';
+    letter-spacing: 0.16px;
+}
+.flowerPot > p{
+    width: 284px;
+    height: 116px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #000000;
+
 }
 .flowerPot > img{
     width:200px;
